@@ -4,7 +4,8 @@ window.BackboneOnRails = {
   Views: {},
   Routers: {},
   initialize: function() {
-    alert('Hello from Backbone!');
+    new BackboneOnRails.Routers.Spas();
+    Backbone.history.start({pushState: true});
   }
 };
 
