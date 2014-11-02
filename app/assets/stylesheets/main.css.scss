@@ -1,3 +1,32 @@
-// Place all the styles related to the main controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.main{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.static-content{
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.spa-container{
+  background-color: lighten(blue, 40%);
+  padding: 10px;
+}
+
+.record{
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: white;
+  }
+
+  &.for-deletion{
+    background-color: pink;
+  }
+}
+
+.btn-delete{
+  display: none;
+}
